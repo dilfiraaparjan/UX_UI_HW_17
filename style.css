@@ -1,0 +1,335 @@
+.html,body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff7e4;
+}
+/* Navigation */
+.menuItem {
+    display: inline-block;
+    padding: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    color: #eee4cb;
+    background-color: #187760;
+    margin: 35px 10px;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.mainNav {
+    background-color: #2a1e1e;
+    overflow: hidden;
+    position: relative;
+    right: 10px;
+}
+.navBar {
+    background-color: #2a1e1e;
+    width: auto;
+    height: 180px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.menuButton {
+    float: right;
+    display: inline-block;
+}
+
+.navItem {
+    display: inline;
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 40px;
+    margin-bottom: 40px;
+    color: #eee4cb;
+    margin-right: 35px;
+    margin-left: 38px;
+}
+
+.navItem:hover {
+    color: #fff7e4;
+    cursor: pointer;
+    box-shadow: #eee4cb;
+}
+#donate {
+    background-color: #b5ed9a;
+    color: #2a1e1e;
+    float: right;
+    }
+
+.fullLogo {
+    padding: 25px;
+}
+.menuItem:hover {
+    background-color: #0e5846;
+}
+#donate:hover {
+    background-color: #0e5846;
+    color: #eee4cb;
+}
+/* Hero Image Area*/
+.heroGrid {
+    margin: 0px 0%;
+    display: grid;
+    min-height: 400px;
+    height: 70vh;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "heroImage"
+}
+.heroGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    position: relative;
+}
+
+#heroImage {
+    grid-area: heroImage;
+    background-image: url(images/hero.jpeg);
+}
+
+/* Widget Card Style */
+.container {
+    background-color: rgba(28, 17, 17, 65%);
+    backdrop-filter: blur(8px);
+    height: 223px;
+    width: 410px;
+    padding: 2px 16px;
+    position: relative;
+    left: 10%;
+    top: 30%;
+    border-radius: 20px;
+}
+h1 {
+    color: #eee4cb;
+    font-size: 28px;
+    text-align: center;
+}
+p {
+    text-align: center;
+    color: #eee4cb;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span {
+    color: #c3ddaa;
+    font-weight: 500;
+    margin-right: 5px;
+}
+#widgetButton {
+    margin-top: 2px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 1%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button {
+    background-color:#2a1e1e;
+    color: #ffcf95;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 58px;
+    border-color: #eee4cb;
+    border-width: 1px;
+}
+.line-1 {
+    height: .5px;
+    background:#eee4cb;
+    position: relative;
+    top: 3%;
+}
+.line-2 {
+    height: .5px;
+    background:#eee4cb;
+    position: relative;
+    top: 2%;
+}
+button:hover {
+    background-color: rgba(221, 209, 180, 65%);
+    color: #2a1e1e;
+}
+/* Visit the Zoo Section */
+.heading {
+    background-color: #eee4d1;
+    width: 100%;
+    height: 155px;
+}
+h2 {
+    margin-top: 0%;
+    margin-left: 20px;
+    font-size: 48px;
+    padding: 45px;
+}
+.planButton {
+    margin-right: 20px;
+    position: relative;
+    right: -1050px;
+    top: -160px;
+    display: inline-block;
+}
+/* Mission Statement Section & Calendar Section */
+#missionImage {
+    grid-area: missionImage;
+    background-image: url(images/membership\ card.jpeg);
+}
+.missionCalendar {
+    display: grid;
+    margin: 20px;
+    min-height: 400px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "missionImage missionImage calendar"
+}
+.missionGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    position: relative;
+}
+.missionCard {
+    background-color: #2a1e1e;
+    position: relative;
+    top: 0px;
+    width: 45%;
+    height: 300px;
+    margin: 15px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    border-color: #eee4cb;
+    border-width: 1px;
+}
+#logoIcon {
+    background-color: #2a1e1e;
+    padding: 15px 15px 25px 15px;
+    border-radius: 50%;
+    position: relative;
+    height: 65px;
+    left: 18%;
+    top: 10%;
+}
+#missionDescrip {
+    font-size: 18px;
+    text-align: left;
+    margin: 20px;
+}
+#missionTitle {
+    text-align: left;
+    margin: 20px;
+
+
+}
+.calendarContainer {
+    grid-area: calendar;
+    background-color: #2a1e1e;
+    margin-left: 20px;
+}
+#calendar {
+    margin: 15px;
+    margin-top: 20px;
+}
+#calendarTitle {
+    display: inline-block;
+    padding-left: 20px;
+    font-family: serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+#calendarLink {
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+    margin: 20px;
+}
+li {
+    margin: 5px;
+    margin-bottom: 20px;
+}
+footer {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #fff7e4;
+    display: inline-block;
+    background-color: #2a1e1e;
+    display: grid;
+    min-height: 200px;
+    height: 47vh;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "sec1" "sec2" "sec3" "sec4"
+
+}
+.sec1 {
+    grid-area: "sec1";
+}
+.sec2 {
+    grid-area: "sec2";
+}
+.sec3 {
+    grid-area: "sec3";
+}
+.sec4 {
+    grid-area: "sec4";
+    text-align: right;
+}
+.footerLogo {
+    margin-bottom: 20px;
+}
+.copyprint {
+    margin-top: 50px;
+}
+.newsletter {
+    color: white;
+}
+.stamp {
+    filter: opacity(70%);
+}
+.button {
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #eee4cb;
+    background-color: #187760;
+    margin: 25px 0px;
+    border-radius: 10px;
+    align-items: left;
+    cursor: pointer;
+    padding: 5px 30px;
+    text-align: center;
+    height: 20px;
+    max-width: 140px;
+}
+.inputArea {
+    background-color: #fff7e4;
+    border-radius: 5px;
+    height: 20px;
+    margin: 0px 0px;
+    color: #2a1e1ea2;
+    padding: 5px 20px;
+    text-align: left;
+    max-width: 150px;
+}
+.spamMessage {
+    font-weight: light;
+}
+.socials {
+    margin-top: 25px;
+}
